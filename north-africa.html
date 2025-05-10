@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Africa Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>Explore North African Cuisine</h1>
+    </div>
+</header>
+
+<main>
+    <!-- Region Image and Description -->
+    <section class="region-description">
+        <div class="region-image">
+            <img src="images/north-africa-region.jpg" alt="North Africa Region" class="region-img">
+        </div>
+        <div class="region-text">
+            <h2>North Africa</h2>
+            <p>North African cuisine is a unique blend of Arab, Berber, and Mediterranean influences. The food is famous for its use of aromatic <mark>spices</mark> such as <mark>cumin</mark>, <mark>coriander</mark>, <mark>saffron</mark>, and <mark>paprika</mark>. Key ingredients include couscous, lamb, chicken, and vegetables like eggplant and tomatoes. Traditional cooking techniques include slow-cooking and braising in <mark>tagines</mark> (traditional clay pots).</p>
+        </div>
+    </section>
+
+    <!-- YouTube Video -->
+    <section class="video-section">
+        <h2>Discover North African Cuisine</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="North African Cuisine" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Signature Dishes Section -->
+    <section class="signature-dishes">
+        <h2>Signature Dishes</h2>
+        <div class="dish-container">
+            <article class="dish-card">
+                <img src="images/tangine.jpg" alt="Tagine" class="dish-img">
+                <h3>Tagine</h3>
+                <p>A slow-cooked Moroccan stew, often made with lamb or chicken, vegetables, and a blend of <mark>spices</mark>, cooked in a <mark>tagine</mark> pot.</p>
+                <a href="tagine-recipe.html" class="btn">Learn Recipe</a>
+            </article>
+
+            <article class="dish-card">
+                <img src="images/couscous.jpg" alt="Couscous" class="dish-img">
+                <h3>Couscous</h3>
+                <p>Steamed semolina wheat granules, often served with <mark>vegetables</mark> and <mark>meat</mark>, a staple in North African cuisine.</p>
+                <a href="couscous-recipe.html" class="btn">Learn Recipe</a>
+            </article>
+
+            <article class="dish-card">
+                <img src="images/harira.jpg" alt="Harira" class="dish-img">
+                <h3>Harira</h3>
+                <p>A traditional Moroccan soup made with tomatoes, lentils, chickpeas, and lamb, flavored with <mark>herbs</mark> like <mark>cilantro</mark> and <mark>parsley</mark>.</p>
+                <a href="harira-recipe.html" class="btn">Learn Recipe</a>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <form action="newsletter_signup.php" method="POST">
+        <label for="email-newsletter">Sign up for our Newsletter</label>
+        <input type="email" id="email-newsletter" name="email">
+        <button type="submit">Subscribe</button>
+    </form>
+</footer>
+
+</body>
+</html>

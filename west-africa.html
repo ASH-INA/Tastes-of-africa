@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Africa Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>Explore West African Cuisine</h1>
+    </div>
+</header>
+
+<main>
+    <!-- Region Image and Description -->
+    <section class="region-description">
+        <div class="region-image">
+            <img src="images/west-africa-region.jpg" alt="West Africa Region" class="region-img">
+        </div>
+        <div class="region-text">
+            <h2>West Africa</h2>
+            <p>West African cuisine is vibrant and diverse, influenced by a variety of cultures and traditions. The food is known for its use of bold, <mark>spicy ingredients</mark>, such as <mark>chilies</mark>, <mark>ginger</mark>, and <mark>garlic</mark>. Common ingredients include rice, cassava, yams, and beans. Cooking methods vary by region, but many dishes are prepared by <mark>grilling</mark>, <mark>boiling</mark>, and <mark>frying</mark>.</p>
+        </div>
+    </section>
+
+    <!-- YouTube Video -->
+    <section class="video-section">
+        <h2>Discover West African Cuisine</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="West African Cuisine" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Signature Dishes Section -->
+    <section class="signature-dishes">
+        <h2>Signature Dishes</h2>
+        <div class="dish-container">
+            <article class="dish-card">
+                <img src="images/jollof-rice.jpg" alt="Jollof Rice" class="dish-img">
+                <h3>Jollof Rice</h3>
+                <p>A beloved West African dish known for its rich, flavorful sauce made from tomatoes, onions, and <mark>spices</mark> like <mark>cayenne pepper</mark>.</p>
+                <a href="jollof-recipe.html" class="btn">Learn Recipe</a>
+            </article>
+
+            <article class="dish-card">
+                <img src="images/fufu.jpg" alt="Fufu" class="dish-img">
+                <h3>Fufu</h3>
+                <p>A traditional West African dish made from pounded yam or cassava, often served with <mark>stews</mark> or <mark>sauces</mark>.</p>
+                <a href="fufu-recipe.html" class="btn">Learn Recipe</a>
+            </article>
+
+            <article class="dish-card">
+                <img src="images/suya.jpg" alt="Suya" class="dish-img">
+                <h3>Suya</h3>
+                <p>A popular Nigerian street food consisting of spicy grilled meat skewers, often served with <mark>onions</mark> and <mark>tomatoes</mark>.</p>
+                <a href="suya-recipe.html" class="btn">Learn Recipe</a>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <form action="newsletter_signup.php" method="POST">
+        <label for="email-newsletter">Sign up for our Newsletter</label>
+        <input type="email" id="email-newsletter" name="email">
+        <button type="submit">Subscribe</button>
+    </form>
+</footer>
+
+</body>
+</html>
